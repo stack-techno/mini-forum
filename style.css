@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#container{
+    width:80%;
+    margin: auto;
+    display: flex;
+    
+    padding: 5px 0;
+}
+header{
+    background-color: #1E90FF;
+    color: #FFF;
+    height: 70px;
+}
+header h1{
+    text-align: center;
+    padding: 15px 0;
+}
+
+form{
+    width: 35%;
+    
+}
+
+form p{
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+form input{
+    font-size: 14px;
+    padding: 12px 8px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+}
+form input:focus{
+    border-color: #1E90FF;
+}
+
+form textarea{
+    font-size: 14px;
+    padding: 12px 8px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+}
+form textarea:focus{
+    border-color: #1E90FF;
+}
+
+form button{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 8px 12px;
+    width: 35%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #1E90FF;
+    color: #FFF;
+    cursor: pointer;
+}
+
+/*form input[type ="file"]{
+    font-size: 14px;
+} a revoir*/
+
+#listPost{
+    width: 55%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;   
+}
+
+#listPost .onePost{
+    height: 200px;
+    width: 700px;
+    margin-bottom: 25px;
+    border: 1px solid #000;
+}
+.onePost #head{
+    display: flex;
+}
+
+.onePost #head img{
+    width: 150px;
+    height: 100px;
+}
+
+.onePost #head h3{
+    margin: 5px;
+}
+
+.onePost #head p{
+    margin: 5px;
+}
+
+#content{
+    padding: 10px;
+}
+
+#content p{
+    text-align: justify;
+}
