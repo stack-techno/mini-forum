@@ -1,60 +1,64 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
-#container{
-    width:80%;
+#container {
+    width: 80%;
     margin: auto;
     display: flex;
-    
+
     padding: 5px 0;
 }
-header{
+
+header {
     background-color: #1E90FF;
     color: #FFF;
     height: 70px;
 }
-header h1{
+
+header h1 {
     text-align: center;
     padding: 15px 0;
 }
 
-form{
+form {
     width: 35%;
-    
+
 }
 
-form p{
+form p {
     font-size: 18px;
     margin: 15px 0;
 }
 
-form input{
+form input {
     font-size: 14px;
     padding: 12px 8px;
     width: 100%;
     border-radius: 5px;
     outline: none;
 }
-form input:focus{
+
+form input:focus {
     border-color: #1E90FF;
 }
 
-form textarea{
+form textarea {
     font-size: 14px;
     padding: 12px 8px;
     width: 100%;
     border-radius: 5px;
     outline: none;
 }
-form textarea:focus{
+
+form textarea:focus {
     border-color: #1E90FF;
 }
 
-form button{
+form button {
     font-size: 14px;
     font-weight: bold;
     margin: 10px 0;
@@ -67,44 +71,52 @@ form button{
     cursor: pointer;
 }
 
+.paragrapheRougeP {
+    font-size: 12px;
+    color: red;
+}
+
 /*form input[type ="file"]{
     font-size: 14px;
 } a revoir*/
 
-#listPost{
+#listPost {
     width: 55%;
     margin: auto;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
 }
 
-#listPost .onePost{
+#listPost .onePost {
     height: 200px;
     width: 700px;
     margin-bottom: 25px;
     border: 1px solid #000;
 }
-.onePost #head{
+
+.onePost #head {
     display: flex;
 }
 
-.onePost #head img{
+.onePost #head img {
     width: 150px;
     height: 100px;
 }
 
-.onePost #head h3{
+.onePost #head h3 {
     margin: 5px;
 }
 
-.onePost #head p{
+.onePost #head p {
     margin: 5px;
 }
 
-#content{
+#content {
     padding: 10px;
+    /*border: 1px solid #000;*/
+    overflow-x: auto;
 }
 
-#content p{
+#content p {
     text-align: justify;
 }
